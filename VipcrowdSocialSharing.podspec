@@ -1,6 +1,6 @@
 
   Pod::Spec.new do |s|
-    s.name = 'VipcrowdSocialShare'
+    s.name = 'VipcrowdSocialSharing'
     s.version = '0.0.1'
     s.summary = 'Share on social sites such as Facebook, Twitter, and LinkedIn'
     s.license = 'MIT'

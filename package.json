@@ -25,7 +25,7 @@
     "dist/",
     "ios/",
     "android/",
-    "VipcrowdSocialShare.podspec"
+    "VipcrowdSocialSharing.podspec"
   ],
   "keywords": [
     "capacitor",
