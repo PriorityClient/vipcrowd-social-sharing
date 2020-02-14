@@ -1,0 +1,52 @@
+PODS:
+  - Capacitor (1.5.0):
+    - CapacitorCordova (= 1.5.0)
+  - CapacitorCordova (1.5.0)
+  - FBSDKCoreKit (6.0.0):
+    - FBSDKCoreKit/Basics (= 6.0.0)
+    - FBSDKCoreKit/Core (= 6.0.0)
+  - FBSDKCoreKit/Basics (6.0.0)
+  - FBSDKCoreKit/Core (6.0.0):
+    - FBSDKCoreKit/Basics
+  - FBSDKCoreKit/Swift (6.0.0):
+    - FBSDKCoreKit/Core
+  - FBSDKLoginKit/Login (6.0.0):
+    - FBSDKCoreKit (~> 6.0.0)
+  - FBSDKLoginKit/Swift (6.0.0):
+    - FBSDKCoreKit/Swift (~> 6.0.0)
+    - FBSDKLoginKit/Login
+  - FBSDKShareKit/Share (6.0.0):
+    - FBSDKCoreKit (~> 6.0.0)
+  - FBSDKShareKit/Swift (6.0.0):
+    - FBSDKCoreKit/Swift (~> 6.0.0)
+    - FBSDKShareKit/Share
+
+DEPENDENCIES:
+  - "Capacitor (from `../node_modules/@capacitor/ios`)"
+  - "CapacitorCordova (from `../node_modules/@capacitor/ios`)"
+  - FBSDKCoreKit/Swift
+  - FBSDKLoginKit/Swift
+  - FBSDKShareKit/Swift
+
+SPEC REPOS:
+  trunk:
+    - FBSDKCoreKit
+    - FBSDKLoginKit
+    - FBSDKShareKit
+
+EXTERNAL SOURCES:
+  Capacitor:
+    :path: "../node_modules/@capacitor/ios"
+  CapacitorCordova:
+    :path: "../node_modules/@capacitor/ios"
+
+SPEC CHECKSUMS:
+  Capacitor: 667658ab58e5a2e8465238eef7c6c5df46738688
+  CapacitorCordova: 5b03f0b903bf066a8f3187e848252227190b681a
+  FBSDKCoreKit: fe738b172590e622c86735b45e20d196848b54df
+  FBSDKLoginKit: fa57df1b967fe0e147b25bede6ea4e9cdf4d64be
+  FBSDKShareKit: 210dcda2603042cf73f31983fc99df4dac06f1d8
+
+PODFILE CHECKSUM: 530481b743ec5d6e095d7fb3628cf577f1f0f95c
+
+COCOAPODS: 1.8.4
