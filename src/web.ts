@@ -1,10 +1,10 @@
 import { WebPlugin } from '@capacitor/core';
-import { SocialSharingPlugin } from './definitions';
+import { SocialSharePlugin } from './definitions';
 
-export class SocialSharingPluginWeb extends WebPlugin implements SocialSharingPlugin {
+export class SocialSharePluginWeb extends WebPlugin implements SocialSharePlugin {
   constructor() {
     super({
-      name: 'SocialSharing',
+      name: 'SocialShare',
       platforms: ['web']
     });
   }
@@ -15,9 +15,9 @@ export class SocialSharingPluginWeb extends WebPlugin implements SocialSharingPl
   }
 }
 
-const SocialSharing = new SocialSharingPluginWeb();
+const SocialShare = new SocialSharePluginWeb();
 
-export { SocialSharing };
+export { SocialShare };
 
 import { registerWebPlugin } from '@capacitor/core';
-registerWebPlugin(SocialSharing);
+registerWebPlugin(SocialShare);

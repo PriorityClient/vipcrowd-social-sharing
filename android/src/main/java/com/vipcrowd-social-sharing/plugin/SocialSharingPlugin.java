@@ -7,7 +7,7 @@ import com.getcapacitor.PluginCall;
 import com.getcapacitor.PluginMethod;
 
 @NativePlugin()
-public class SocialSharing extends Plugin {
+public class SocialShare extends Plugin {
 
     @PluginMethod()
     public void echo(PluginCall call) {

@@ -8,10 +8,10 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 import { WebPlugin } from '@capacitor/core';
-export class SocialSharingPluginWeb extends WebPlugin {
+export class SocialSharePluginWeb extends WebPlugin {
     constructor() {
         super({
-            name: 'SocialSharing',
+            name: 'SocialShare',
             platforms: ['web']
         });
     }
@@ -22,8 +22,8 @@ export class SocialSharingPluginWeb extends WebPlugin {
         });
     }
 }
-const SocialSharing = new SocialSharingPluginWeb();
-export { SocialSharing };
+const SocialShare = new SocialSharePluginWeb();
+export { SocialShare };
 import { registerWebPlugin } from '@capacitor/core';
-registerWebPlugin(SocialSharing);
+registerWebPlugin(SocialShare);
 //# sourceMappingURL=web.js.map

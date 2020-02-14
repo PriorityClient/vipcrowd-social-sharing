@@ -1,9 +1,9 @@
 declare module "@capacitor/core" {
   interface PluginRegistry {
-    SocialSharing: SocialSharingPlugin;
+    SocialShare: SocialSharePlugin;
   }
 }
 
-export interface SocialSharingPlugin {
+export interface SocialSharePlugin {
   echo(options: { value: string }): Promise<{value: string}>;
 }

@@ -1,6 +1,6 @@
 import { WebPlugin } from '@capacitor/core';
-import { SocialSharingPlugin } from './definitions';
-export declare class SocialSharingPluginWeb extends WebPlugin implements SocialSharingPlugin {
+import { SocialSharePlugin } from './definitions';
+export declare class SocialSharePluginWeb extends WebPlugin implements SocialSharePlugin {
     constructor();
     echo(options: {
         value: string;
@@ -8,5 +8,5 @@ export declare class SocialSharingPluginWeb extends WebPlugin implements SocialS
         value: string;
     }>;
 }
-declare const SocialSharing: SocialSharingPluginWeb;
-export { SocialSharing };
+declare const SocialShare: SocialSharePluginWeb;
+export { SocialShare };
